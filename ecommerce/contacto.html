@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto - Wave Riders</title>
+</head>
+<body>
+    <header>
+        <h1>Wave Riders</h1>
+        <p>Tu tienda de motos de agua</p>
+        <nav>
+            <a href="index.html">Inicio</a> |
+            <a href="sobre-nosotros.html">Sobre nosotros</a> |
+            <a href="tienda.html">Tienda</a> |
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <h2>Contacto</h2>
+        <p>¿Tienes alguna pregunta o quieres reservar una prueba en el agua? Escríbenos.</p>
+
+        <form action="#" method="post">
+            <p>
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" required>
+            </p>
+            <p>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required>
+            </p>
+            <p>
+                <label for="telefono">Teléfono:</label><br>
+                <input type="tel" id="telefono" name="telefono">
+            </p>
+            <p>
+                <label for="moto">Moto de interés:</label><br>
+                <select id="moto" name="moto">
+                    <option value="">-- Selecciona una moto --</option>
+                    <option value="rxpx">Sea-Doo RXP-X 325</option>
+                    <option value="gpho">Yamaha GP HO</option>
+                    <option value="ultra">Kawasaki Ultra 310LX</option>
+                    <option value="spark">Sea-Doo Spark Trixx</option>
+                    <option value="vx">Yamaha VX Cruiser</option>
+                    <option value="stx">Kawasaki STX 160</option>
+                </select>
+            </p>
+            <p>
+                Motivo de contacto:<br>
+                <input type="radio" id="info" name="motivo" value="informacion" checked>
+                <label for="info">Información</label>
+                <input type="radio" id="prueba" name="motivo" value="prueba">
+                <label for="prueba">Prueba en el agua</label>
+                <input type="radio" id="financiacion" name="motivo" value="financiacion">
+                <label for="financiacion">Financiación</label>
+            </p>
+            <p>
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="6" cols="40"></textarea>
+            </p>
+            <p>
+                <input type="checkbox" id="privacidad" name="privacidad" required>
+                <label for="privacidad">Acepto la política de privacidad</label>
+            </p>
+            <p>
+                <button type="submit">Enviar</button>
+                <button type="reset">Borrar</button>
+            </p>
+        </form>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026 Wave Riders. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
