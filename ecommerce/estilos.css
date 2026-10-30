@@ -1,4 +1,4 @@
-/* Estilos generales de la página */
+/* M.Y */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -66,3 +66,20 @@ textarea {
     box-sizing: border-box;
 }
 
+/* Animación para el título Wave riders en la pagina de Index*/
+@keyframes deslizarDesdeDerecha {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Aplicado y centrado */
+.titulo-animado {
+    text-align: center;
+    animation: deslizarDesdeDerecha 1s ease-out;
+}
