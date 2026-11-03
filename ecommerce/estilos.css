@@ -83,3 +83,32 @@ textarea {
     text-align: center;
     animation: deslizarDesdeDerecha 1s ease-out;
 }
+
+/* cosa guapa */
+nav {
+    display: flex;
+    gap: 0.5rem;
+}
+
+nav a {
+    flex: 1;
+    background-color: #333333;
+    color: white;
+    border: 1px solid #333333;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease-out;
+}
+
+nav a.activo {
+    background-color: white !important;
+    color: #333333 !important;
+    font-weight: bold;
+}
+
+nav a:hover,
+nav a:focus {
+    background-color: white;
+    color: #333333;
+}
